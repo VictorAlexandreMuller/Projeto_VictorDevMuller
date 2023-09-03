@@ -92,7 +92,7 @@ span {
     flex-direction: column;           /* ordena o display flex do horizontal para colunas na vertical */
     gap: 40px;
 
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .apresentacao__conteudo__sobremim {
@@ -102,7 +102,7 @@ span {
     flex-direction: column;
     gap: 40px;
 
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .apresentacao__conteudo__curriculo {
@@ -112,7 +112,7 @@ span {
     flex-direction: column;
     gap: 40px;
 
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .apresentacao__conteudo__inspiracoes {
