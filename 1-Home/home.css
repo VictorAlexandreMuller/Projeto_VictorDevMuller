@@ -1,0 +1,27 @@
+.apresentacao__conteudo__home {
+  border: 2px solid red;
+  margin-top: 200px;
+  width: 100vw;
+  height: 100vh;
+
+  padding: 2%;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+}
+
+.left__side {
+  border: 1px solid red;
+}
+
+.right__side {
+  border: 1px solid red;
+}
+
+.apresentacao__foto {
+  border-radius: 50px;
+  border: 6px solid var(--cor-terciaria);
+  max-width: 80%;
+  width: 40%;
+}

@@ -19,7 +19,7 @@
 }
 
 body {
-  /* height: 100vh;    define que o "BODY" ficara c/ espaço 100% da tela Viewport-Height, se torna a estrutura pai (boa pratica) */
+  /* height: 100vh; */ /* define que o "BODY" ficara c/ espaço 100% da tela Viewport-Height, se torna a estrutura pai (boa pratica) */
   /* box-sizing: border-box;  */ /* define que os componentes filho nao saiam do pai para fora da tela (boa pratica) */
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
@@ -44,52 +44,6 @@ span {
   color: var(--cor-terciaria);
   border: 4px solid var(--cor-terciaria); /* largura e cor da borda solida */
   padding: 10px;
-}
-
-.cabecalho {
-  padding: 2% 5% 2% 5%; /* norte x direita x sul x esquerda */
-  background-color: #0b0a0a;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 90%;
-  top: 0;
-}
-
-.cabecalho__menu {
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem;
-}
-
-.cabecalho__menu__link {
-  color: var(--cor-terciaria);
-  font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.cabecalho__menu__link:hover {
-  text-decoration: underline;
-}
-
-.apresentacao {
-  /* padding: 10% 10%; */
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 82px; */
-}
-
-.apresentacao__conteudo__home {
-  /* width: 50%; */
-  /* height: 930px; */
-  border: 1px solid red;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 40px;
-
-  margin-top: 60px;
 }
 
 .apresentacao__conteudo__sobremim {
@@ -202,30 +156,11 @@ span {
   align-items: center; /* centralizou os itens entre eles */
 }
 
-.apresentacao__foto {
-  border-radius: 50px;
-  border: 6px solid var(--cor-terciaria);
-  max-width: 80%;
-  width: 40%;
-}
-
 .apresentacao__foto__curriculo {
   border-radius: 50px;
   border: 6px solid var(--cor-terciaria);
   max-width: 100%;
   width: 90%;
-}
-
-.rodape {
-  color: var(--cor-primaria);
-  background-color: var(--cor-terciaria);
-  padding: 2% 5% 2% 5%;
-  width: 100%;
-  text-align: center;
-  font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
-
-  position: absolute;
 }
 
 .div__photo_to_downloadcurriculo {
@@ -239,6 +174,14 @@ span {
   width: 50%;
   font-weight: 600px;
 }
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
 
 @media (max-width: 1200px) {
   .apresentacao {

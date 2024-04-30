@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Victor Müller</title>
-    <link rel="icon" type="image/x-icon" href="./imagens/Icone22.jpg" />
+
     <link rel="stylesheet" href="./styles css/style home.css" />
+
+    <link rel="icon" type="image/x-icon" href="./imagens/Icone22.jpg" />
+    <link rel="stylesheet" href="0-HeaderFooter/headerFooter.css" />
+    <link rel="stylesheet" href="1-Home/home.css" />
   </head>
   <body>
     <header class="cabecalho">
@@ -16,24 +20,27 @@
         <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
       </nav>
     </header>
-    <main class="apresentacao">
+    <main>
       <section class="apresentacao__conteudo__home">
-        <div>
-          <h1 class="apresentacao__conteudo__cabecalho">
-            Formação de <span>Front-end</span>
-          </h1>
-          <h2 class="apresentacao__conteudo__titulo">
-            Eleve seu negócio digital a outro nível
-            <strong class="titulo-destaque"
-              >com um Front-end de qualidade!</strong
-            >
-          </h2>
-          <p class="apresentacao__conteudo__paragrafo">
-            Olá! Sou Victor Müller, desenvolvedor Front-end com especialidade em
-            HTML e CSS. Ajudo pequenos negócios e designers a colocarem boas
-            ideias em prática.
-          </p>
-          <p class="apresentacao__conteudo__paragrafo">Vamos conversar?</p>
+        <!-- left side (textos) -->
+        <div class="left__side">
+          <div>
+            <h1 class="apresentacao__conteudo__cabecalho">
+              Formação de <span>Front-end</span>
+            </h1>
+            <h2 class="apresentacao__conteudo__titulo">
+              Eleve seu negócio digital a outro nível
+              <strong class="titulo-destaque"
+                >com um Front-end de qualidade!</strong
+              >
+            </h2>
+            <p class="apresentacao__conteudo__paragrafo">
+              Olá! Sou Victor Müller, desenvolvedor Front-end com especialidade
+              em HTML e CSS. Ajudo pequenos negócios e designers a colocarem
+              boas ideias em prática.
+            </p>
+            <p class="apresentacao__conteudo__paragrafo">Vamos conversar?</p>
+          </div>
           <br />
           <div class="apresentacao__links">
             <!-- define divisao dentro de um 'conteiner' -->
@@ -79,7 +86,8 @@
             </a>
           </div>
         </div>
-        <div>
+        <!-- right side (img) -->
+        <div class="right__side">
           <img
             class="apresentacao__foto"
             src="./imagens/homePhoto2.png"

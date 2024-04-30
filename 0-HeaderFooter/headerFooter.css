@@ -1,0 +1,38 @@
+.cabecalho {
+  padding: 2% 5% 2% 5%; /* norte x direita x sul x esquerda */
+  background-color: #0b0a0a;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 90%;
+  top: 0;
+}
+
+.cabecalho__menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.cabecalho__menu__link {
+  color: var(--cor-terciaria);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+  text-decoration: underline;
+}
+
+.rodape {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 2% 5% 2% 5%;
+  width: 100%;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+
+  position: absolute;
+}
