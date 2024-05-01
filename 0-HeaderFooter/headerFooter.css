@@ -17,7 +17,7 @@ header {
 .cabecalho__menu__link {
   color: var(--cor-terciaria);
   font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
+  font-size: 1.25vw;
   font-weight: 600;
   text-decoration: none;
 }
