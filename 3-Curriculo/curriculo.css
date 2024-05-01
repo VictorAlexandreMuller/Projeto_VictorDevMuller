@@ -1,0 +1,36 @@
+ul {
+  list-style-type: circle; /* transforma o tópico da lista em quadrados */
+}
+
+li {
+  margin-bottom: 15px; /* insere distância na margem inferior de cada tópico da lista */
+}
+
+.apresentacao__conteudo__curriculo {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-top: 60px;
+}
+
+.apresentacao__foto__curriculo {
+  border-radius: 50px;
+  border: 6px solid var(--cor-terciaria);
+  max-width: 100%;
+  width: 90%;
+}
+
+.div__photo_to_downloadcurriculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 100px;
+  font-size: 1.5rem;
+  width: 50%;
+  font-weight: 600px;
+}

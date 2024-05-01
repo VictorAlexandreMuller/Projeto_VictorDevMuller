@@ -1,0 +1,30 @@
+/* fonte "Krona One" do "Google Fonts" */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  /* define variaveis no css */
+  --cor-primaria: #222831; /* background */
+  --cor-secundaria: #eeeeee; /* letra */
+  --cor-terciaria: #00adb5; /* letra destacada */
+  --cor-hover: #393e46; /* passar mouse em cima botao */
+
+  --fonte-primaria: "Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+/* reseta as config padroes do site */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--cor-primaria);
+}
+
+body {
+  color: var(--cor-secundaria);
+  width: 100%;
+
+  display: table;
+}
