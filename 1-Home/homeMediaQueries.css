@@ -54,28 +54,67 @@
 /* For Tablets (768px - 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    max-height: 10px;
+    min-height: 10px;
   }
 
   main {
-    /* border: 1px solid red; */
-    padding-top: 70px;
-    max-height: 10px;
+    padding-top: 80px;
+    min-height: 1vh;
   }
 
   .firstSection {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column-reverse;
-    gap: 30px;
+    justify-content: center;
+    gap: 4vw;
+  }
+
+  .right__side__firstSection {
+    /* border: 1px solid red; */
   }
 
   .right__side__firstSection > img {
     min-width: auto;
-    min-height: 100px;
+    min-height: 20vw;
     width: auto;
-    height: 100vh;
+    height: auto;
     max-width: auto;
-    max-height: 200px;
+    max-height: 40vw;
+  }
+
+  .left__side__firstSection {
+    gap: 2.5vw;
+  }
+
+  .apresentacao {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 0% 10%;
+    gap: 3.5vw;
+  }
+
+  .apresentacao > h1 {
+    font-size: 2.1vw;
+  }
+
+  /* borda azul ao redor de Front-End em titulo */
+  .apresentacao > h1 > span {
+    border: 0.4vw solid var(--cor-terciaria);
+  }
+
+  .apresentacao > h2 {
+  }
+
+  .apresentacao > h2 > strong {
+  }
+
+  .apresentacao > p {
+  }
+
+  .apresentacao__links {
+    /* border: 1px solid red; */
+    gap: 2vw;
   }
 }
 
