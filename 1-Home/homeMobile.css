@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 767px) {
   main {
-    padding-top: 60px;
+    padding-top: 80px;
     min-height: 1vh;
   }
 
@@ -21,8 +21,8 @@
   }
 
   .right__side__firstSection {
-    /* border: 1px solid red; */
-    padding: 10px;
+    /* border: 1px solid blue; */
+    padding: 30px 0px;
   }
 
   /* FOTO */
@@ -33,29 +33,63 @@
     width: auto;
     height: 100vh;
     max-width: auto;
-    max-height: 230px;
+    max-height: 450px;
   }
 
   .left__side__firstSection {
     /* border: 1px solid green; */
-    padding: 0% 15%;
+    padding: 0% 5%;
     gap: 12px;
   }
 
   .apresentacao {
     /* border: 1px solid red; */
     text-align: center;
-    padding: 10px 10%;
-    gap: 3.5vw;
+    padding: 10px 0%;
+    gap: 35px;
+  }
+
+  .apresentacao > h1 {
+    font-size: 31px;
+  }
+
+  .apresentacao > h1 > span {
+    border: none;
+  }
+
+  .apresentacao > h2 {
+    font-size: 23px;
+  }
+
+  .apresentacao > p {
+    font-size: 18px;
   }
 
   .apresentacao__links {
     /* border: 1px solid red; */
     gap: 2vw;
-    margin-bottom: 15px;
+    margin-bottom: 33px;
+  }
+
+  .apresentacao__links > h2 {
+    font-size: 3vw;
+    margin: 10px;
   }
 
   .apresentacao__links__botao {
-    width: 30%;
+    width: 50%;
+    font-size: 20px;
+
+    display: flex;
+    gap: 20px;
+  }
+
+  #botaoGitHubVictor {
+    display: flex;
+    gap: 35px;
+  }
+
+  .apresentacao__links__icone {
+    width: 25px;
   }
 }
