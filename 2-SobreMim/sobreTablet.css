@@ -1,0 +1,55 @@
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* For Tablets (768px - 991px) */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  main {
+    padding-top: calc(5vh + 40px);
+  }
+
+  .firstSection {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  /* FOTO */
+  .apresentacao__foto {
+    border-radius: 20px;
+
+    min-width: auto;
+    min-height: 150px;
+    width: auto;
+    height: 400px;
+    max-width: auto;
+    max-height: 400px;
+  }
+
+  .tituloSobreMim {
+    margin: 0 0 40px 0;
+    font-size: 2rem;
+  }
+
+  .textoParagrafoSobreMim {
+    font-size: 1rem;
+  }
+
+  .textoParagrafoSobreMim > span {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #iconesDivFoto {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  #iconesDivText {
+    position: relative;
+    visibility: visible;
+  }
+}

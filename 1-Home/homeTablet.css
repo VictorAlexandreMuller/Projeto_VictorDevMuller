@@ -15,61 +15,84 @@
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    gap: 4vw;
+    gap: 12px;
   }
 
   .right__side__firstSection {
-    /* border: 1px solid red; */
+    /* border: 1px solid blue; */
+    padding: 30px 0px;
   }
 
-  /* Foto */
+  /* FOTO */
   .right__side__firstSection > img {
     border-radius: 20px;
     min-width: auto;
-    min-height: 200px;
+    min-height: 150px;
     width: auto;
-    height: auto;
+    height: 400px;
     max-width: auto;
     max-height: 400px;
   }
 
   .left__side__firstSection {
-    /* border: 1px solid blue; */
-    gap: 1vw;
+    /* border: 1px solid green; */
+    padding: 0% 5%;
+    gap: 12px;
   }
 
   .apresentacao {
     /* border: 1px solid red; */
-    padding: 20px 15%;
     text-align: center;
-    gap: 3.5vw;
+    padding: 10px 0%;
+    gap: 35px;
   }
 
   .apresentacao > h1 {
-    font-size: 2.1vw;
+    font-size: 35px;
   }
 
-  /* borda azul ao redor de Front-End em titulo */
   .apresentacao > h1 > span {
-    border: 0.4vw solid var(--cor-terciaria);
+    border: none;
   }
 
   .apresentacao > h2 {
-  }
-
-  .apresentacao > h2 > strong {
+    font-size: 27px;
   }
 
   .apresentacao > p {
+    font-size: 23px;
+  }
+
+  #vamosConversar {
+    font-size: 27px;
   }
 
   .apresentacao__links {
     /* border: 1px solid red; */
-    gap: 2vw;
-    margin-bottom: 20px;
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+
+  .apresentacao__links > h2 {
+    font-size: 5vw;
+    margin: 10px;
   }
 
   .apresentacao__links__botao {
-    width: 35%;
+    width: 45vw;
+    font-size: 4vw;
+    padding: 3%;
+
+    display: flex;
+    gap: 15px;
+  }
+
+  #botaoGitHubVictor {
+    display: flex;
+    gap: 20px;
+  }
+
+  .apresentacao__links__icone {
+    width: 15%;
   }
 }
