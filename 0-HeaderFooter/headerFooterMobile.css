@@ -12,7 +12,20 @@
   }
 
   .cabecalho__menu__link {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    /* border-bottom: 1px solid var(--cor-terciaria); */
+    padding-bottom: 5px;
+    animation: fadeInOut 8s infinite;
+  }
+
+  @keyframes fadeInOut {
+    0%,
+    100% {
+      border-bottom: 1px solid black;
+    }
+    50% {
+      border-bottom: 1px solid var(--cor-terciaria);
+    }
   }
 
   footer {
@@ -20,6 +33,6 @@
   }
 
   .rodape {
-    font-size: 23px;
+    font-size: calc(2.7vw + 9px);
   }
 }

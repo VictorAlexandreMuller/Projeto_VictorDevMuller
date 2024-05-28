@@ -29,11 +29,11 @@
   .right__side__firstSection > img {
     border-radius: 20px;
     min-width: auto;
-    min-height: 200px;
+    min-height: 150px;
     width: auto;
-    height: 100vh;
+    height: 400px;
     max-width: auto;
-    max-height: 450px;
+    max-height: 400px;
   }
 
   .left__side__firstSection {
@@ -50,7 +50,7 @@
   }
 
   .apresentacao > h1 {
-    font-size: 31px;
+    font-size: 35px;
   }
 
   .apresentacao > h1 > span {
@@ -58,38 +58,43 @@
   }
 
   .apresentacao > h2 {
-    font-size: 23px;
+    font-size: 27px;
   }
 
   .apresentacao > p {
-    font-size: 18px;
+    font-size: 23px;
+  }
+
+  #vamosConversar {
+    font-size: 27px;
   }
 
   .apresentacao__links {
     /* border: 1px solid red; */
-    gap: 2vw;
-    margin-bottom: 33px;
+    gap: 25px;
+    margin-bottom: 35px;
   }
 
   .apresentacao__links > h2 {
-    font-size: 3vw;
+    font-size: 5vw;
     margin: 10px;
   }
 
   .apresentacao__links__botao {
-    width: 50%;
-    font-size: 20px;
+    width: 45vw;
+    font-size: 4vw;
+    padding: 5%;
 
     display: flex;
-    gap: 20px;
+    gap: 15px;
   }
 
   #botaoGitHubVictor {
     display: flex;
-    gap: 35px;
+    gap: 20px;
   }
 
   .apresentacao__links__icone {
-    width: 25px;
+    width: 15%;
   }
 }
