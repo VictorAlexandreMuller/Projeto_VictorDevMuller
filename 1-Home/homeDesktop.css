@@ -101,9 +101,9 @@ main {
   font-size: 1.3vw;
 
   border-radius: 10px;
-  border: 0.15vw solid var(--cor-terciaria);
+  border: 3px solid var(--cor-terciaria);
 
-  padding: 3% 0;
+  padding: 7%;
   text-decoration: none;
 
   width: 50%;
