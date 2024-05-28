@@ -1,0 +1,53 @@
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* For Desktops (1200px and above) */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) {
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.cabecalho__menu {
+  padding: 1.5% 3%;
+  background-color: #0b0a0a;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cabecalho__menu__link {
+  color: var(--cor-terciaria);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.25vw;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+}
+
+.rodape {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+
+  font-size: 1.4vw;
+  font-family: var(--fonte-secundaria);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
