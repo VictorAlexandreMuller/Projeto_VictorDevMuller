@@ -58,8 +58,8 @@ main {
 /* borda azul ao redor de Front-End em titulo */
 .apresentacao > h1 > span {
   color: var(--cor-terciaria);
-  border: 0.25vw solid var(--cor-terciaria);
-  padding: 0.5vw;
+  border: 5px solid var(--cor-terciaria);
+  padding: 7px;
 }
 
 .apresentacao > h2 {

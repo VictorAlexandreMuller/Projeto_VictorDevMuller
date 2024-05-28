@@ -8,18 +8,18 @@
 
 @media only screen and (max-width: 767px) {
   .cabecalho__menu {
-    padding: 15px 5%;
+    padding: 30px 5%;
   }
 
   .cabecalho__menu__link {
-    font-size: 2vw;
+    font-size: 1.1rem;
   }
 
   footer {
-    height: 6vh;
+    height: 8vh;
   }
 
   .rodape {
-    font-size: 1.3vw;
+    font-size: 23px;
   }
 }
