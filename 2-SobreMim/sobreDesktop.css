@@ -1,0 +1,122 @@
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* For Desktops (992px and above) */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) {
+}
+
+body {
+  /* define que os componentes filho nao saiam do pai para fora da tela (boa pratica) */
+  /* box-sizing: border-box;  */
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  padding-top: calc(5vh + 30px);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.firstSection {
+  /* border: 2px solid white; */
+  padding: 0.3%;
+  margin-bottom: 30px;
+
+  display: grid;
+  grid-template-columns: 52% 40%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.apresentacao__conteudo__sobremim {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloSobreMim {
+  /* border: 1px solid green; */
+  text-align: center;
+  font-family: var(--fonte-primaria);
+  font-weight: 600;
+  color: var(--cor-terciaria);
+  font-size: 2.5vw;
+  margin: 40px 0;
+}
+
+.textoParagrafoSobreMim > span {
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.textoParagrafoSobreMim {
+  /* border: 1px solid pink; */
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-secundaria);
+  font-size: 1.3vw;
+}
+
+.divFoto {
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.apresentacao__foto {
+  margin: 40px 0;
+
+  min-width: auto;
+  min-height: 150px;
+  width: auto;
+  height: 45vw;
+  max-width: auto;
+  max-height: 700px;
+
+  border: 4px solid var(--cor-terciaria);
+  border-radius: 30px;
+}
+
+.iconesDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: 40px 0;
+}
+
+.divInsta,
+.divGit,
+.divLinkedin {
+  padding: 11px;
+  border: 4px solid var(--cor-terciaria);
+  border-radius: 50%;
+}
+
+.divInsta:hover,
+.divGit:hover,
+.divLinkedin:hover {
+  background-color: var(--cor-hover);
+}
+
+#iconesDivText {
+  position: absolute;
+  visibility: hidden;
+}
