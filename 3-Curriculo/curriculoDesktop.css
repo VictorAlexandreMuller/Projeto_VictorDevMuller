@@ -1,3 +1,26 @@
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* For Desktops (1200px and above) */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 992px) {
+}
+
+body {
+  /* define que os componentes filho nao saiam do pai para fora da tela (boa pratica) */
+  /* box-sizing: border-box;  */
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  padding-top: calc(5vh + 75px);
+  min-height: 100vh;
+  width: 100%;
+}
+
 ul {
   list-style-type: circle; /* transforma o tópico da lista em quadrados */
 }
@@ -6,31 +29,137 @@ li {
   margin-bottom: 15px; /* insere distância na margem inferior de cada tópico da lista */
 }
 
-.apresentacao__conteudo__curriculo {
-  width: 60%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-
-  margin-top: 60px;
+.wordCertificado {
+  color: var(--cor-terciaria);
+  text-decoration: none;
 }
 
-.apresentacao__foto__curriculo {
-  border-radius: 50px;
-  border: 6px solid var(--cor-terciaria);
-  max-width: 100%;
-  width: 90%;
+.firstSection {
+  /* border: 1px solid white; */
+  margin-bottom: 30px;
+
+  display: grid;
+  grid-template-columns: 50% 40%;
+  justify-content: center;
+  gap: 10px;
 }
 
-.div__photo_to_downloadcurriculo {
+.apresentacaoConteudoCurriculo {
+  /* border: 1px solid blue; */
+
+  width: auto;
+  height: 100%;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: start;
+}
+
+.tituloCurriculo {
+  /* border: 1px solid red; */
+
+  font-size: 3rem;
   text-align: center;
-
-  gap: 100px;
-  font-size: 1.5rem;
-  width: 50%;
-  font-weight: 600px;
+  font-family: var(--fonte-primaria);
+  margin: 3vh 0;
 }
+
+.divCurriculo {
+  /* border: 1px solid cyan; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  /* justify-content: space-evenly; */
+}
+
+.subTitulosCurriculo {
+  font-size: 1.7rem;
+  font-family: var(--fonte-primaria);
+  text-align: center;
+  margin: 1vh 0 3.5vh 0;
+}
+
+.escritaDoCurriculo {
+  color: white;
+  font-family: var(--fonte-secundaria);
+}
+
+.divConteudoESubtitulo {
+  border-left: 3px solid white;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.divParaConteudo {
+  /* border: 1px solid green; */
+  padding: 0 30px;
+}
+
+.fotoCurriculo {
+  border-radius: 40px;
+  border: 6px solid var(--cor-terciaria);
+  width: 90%;
+  height: auto;
+  margin: 30px 0;
+  max-width: 600px;
+}
+
+.divFotoEBotao {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.botaoPdfCurriculo {
+  text-decoration: none;
+  color: white;
+  font-family: var(--fonte-secundaria);
+  padding: 15px;
+  border: 5px solid var(--cor-terciaria);
+  border-radius: 30px;
+  font-size: 1.5rem;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.botaoPdfCurriculo:hover {
+  background-color: var(--cor-hover);
+}
+
+/* ------------------------------------- */
+/* 3 bolinhas */
+
+#iconesDivFoto {
+  /* position: absolute; */
+  /* visibility: hidden; */
+}
+
+.iconesDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  margin: 30px 0;
+}
+
+.divInsta,
+.divGit,
+.divLinkedin {
+  padding: 11px;
+  border: 4px solid var(--cor-terciaria);
+  border-radius: 50%;
+}
+
+.divInsta:hover,
+.divGit:hover,
+.divLinkedin:hover {
+  background-color: var(--cor-hover);
+}
+/* ------------------------------------- */

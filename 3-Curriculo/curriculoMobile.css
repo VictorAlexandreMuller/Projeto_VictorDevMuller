@@ -1,0 +1,23 @@
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* For Mobile Devices (up to 767px) */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .divConteudoESubtitulo {
+    margin: 0 10px;
+    border-right: 3px solid white;
+  }
+
+  .fotoCurriculo {
+    display: none;
+  }
+}
