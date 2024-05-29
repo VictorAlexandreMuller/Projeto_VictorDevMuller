@@ -26,6 +26,7 @@ ul {
 }
 
 li {
+  list-style-type: disc;
   margin-bottom: 15px; /* insere distância na margem inferior de cada tópico da lista */
 }
 
@@ -152,9 +153,15 @@ li {
 .divInsta,
 .divGit,
 .divLinkedin {
-  padding: 11px;
+  /* padding: 11px; */
   border: 4px solid var(--cor-terciaria);
   border-radius: 50%;
+}
+
+.divInsta > a > img,
+.divGit > a > img,
+.divLinkedin > a > img {
+  margin: 11px;
 }
 
 .divInsta:hover,
