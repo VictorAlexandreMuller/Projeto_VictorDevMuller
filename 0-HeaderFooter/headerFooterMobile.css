@@ -28,6 +28,10 @@
     }
   }
 
+  .cabecalho__menu__link:hover {
+    text-decoration: none;
+  }
+
   footer {
     height: 8vh;
   }
